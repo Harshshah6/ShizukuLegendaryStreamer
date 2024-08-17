@@ -1,6 +1,10 @@
 plugins {
     alias(libs.plugins.androidLibrary)
+    id 'maven-publish'
 }
+
+group = 'com.github.Harshshah6'
+version = '1.0'
 
 android {
     namespace 'legendary.streamer.shizuku'
