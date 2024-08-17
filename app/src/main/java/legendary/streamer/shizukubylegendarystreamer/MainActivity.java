@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
         textView = findViewById(R.id.textView);
 
         legendaryStreamerShizuku = new LegendaryStreamerShizuku(this,true);
+        legendaryStreamerShizuku.autoReqPermission();
 
         if(!legendaryStreamerShizuku.isShizukuInstalled()){
             Toast.makeText(this, "Please Install Shizuku first to make application work.", Toast.LENGTH_SHORT).show();
