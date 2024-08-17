@@ -1,22 +1,29 @@
-# InstaMedia
-InstaMedia is an command line or an script written in python to download media like reels or post from [Instagram](https://www.instagram.com). API used in the project is fetched from [SaveIG](https://saveig.app) to get the download information of the passed media url.
+# ShizukuLegendaryStreamer
+LegendaryStreamerShizuku is an utility class for android java / kotlin application to communicate with shizuku for executing shell commands or adb command in the device. Also we can get access to restricted folder access without any extra permissions which is not an official way to access storage on android 11 and above.
 
 ## Getting Started
-Instructions on how to get a copy of the project up and running on your local machine.
+Instructions on how to get the module in your project.
 
-<!-- ### Prerequisites
-List any software, libraries, or hardware needed to run this project.
- Lists : 
- - **List 1** : some description
- - **List 2** : some description -->
-
-
-## Installing
-A quick step-by-step guide on how to setup the project.
-
-1. Clone the repository: **`git clone https://github.com/Harshshah6/InstaMedia-py`**
-2. Navigate to the project directory: **`cd InstaMedia-py`**
-3. Install requirements: **`pip install -r requirements.txt`**
+## Configure
+### Maven
+##### Step 1. Add the JitPack repository to your build file
+  Add it in your root build.gradle at the end of repositories:
+``` gradle
+allprojects {
+  repositories {
+	   ...
+	   maven { url 'https://jitpack.io' }
+  }
+}
+ ```
+ 
+#### Step 2. Add the dependency:
+```gradle
+dependencies {
+   ...
+   implementation 'com.github.Harshshah6:YT_VIDEO_UTIL:1.0'
+}
+```
 
 ## Usage
 ```
