@@ -1,6 +1,14 @@
 # ShizukuLegendaryStreamer
 LegendaryStreamerShizuku is an utility class for android java / kotlin application to communicate with shizuku for executing shell commands or adb command in the device. Also we can get access to restricted folder access without any extra permissions which is not an official way to access storage on android 11 and above.
 
+ [![](https://jitpack.io/v/Harshshah6/ShizukuLegendaryStreamer.svg)](https://jitpack.io/#Harshshah6/ShizukuLegendaryStreamer)
+ [![](https://jitpack.io/v/Harshshah6/ShizukuLegendaryStreamer/week.svg)](httls://jitpack.io/#Harshshah6/ShizukuLegendaryStreamer/week.svg)
+ [![](https://jitpack.io/v/Harshshah6/ShizukuLegendaryStreamer/month.svg)](httls://jitpack.io/#Harshshah6/ShizukuLegendaryStreamer/month.svg)
+ ![](https://badgen.net/github/release/Harshshah6/ShizukuLegendaryStreamer)
+ ![GitHub repo size](https://img.shields.io/github/repo-size/Harshshah6/ShizukuLegendaryStreamer?color=g&logo=github)
+ 
+ [![](https://repository-images.githubusercontent.com/530299726/354e9b8e-b555-4609-b00c-1c871a2144ef)](https://repository-images.githubusercontent.com/530299726/354e9b8e-b555-4609-b00c-1c871a2144ef)
+
 ## Getting Started
 Instructions on how to get the module in your project.
 
@@ -21,18 +29,29 @@ allprojects {
 ```gradle
 dependencies {
    ...
-   implementation 'com.github.Harshshah6:YT_VIDEO_UTIL:1.0'
+   implementation 'com.github.Harshshah6:ShizukuLegendaryStreamer:1.0'
 }
 ```
 
 ## Usage
-```
-usage: instamedia.py [-h] [-u URL] [-o OUT]
+```java
+private LegendaryStreamerShizuku legendaryStreamerShizuku;
+private final ExecutionProcessListener executionProcessListener = new ExecutionProcessListener() {
+ 	@Override
+	public void onPreExecute() { }
+        @Override
+        public void onPostExecute(ArrayList<String> successMessages, ArrayList<String> errorMessages) { }
+};
+@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-options:
-  -h, --help   Show this help message and exit
-  -u, --url    Url of an Instagram Post / Reel.
-  -o, --out    File Name to Save as. (Optional)
+        legendaryStreamerShizuku = new LegendaryStreamerShizuku(this);
+	legendaryStreamerShizuku.autoReqPermission(); //Automatically request shizuku runtime permision to connect with shizuku
+
+	legendaryStreamerShizuku.runCustomCommand("echo 'Hello World'",executionProcessListener); //Running an custom adb command
+}
 ```
 
 <!-- or 
@@ -59,12 +78,11 @@ This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE
 ## Authors & Acknowledgments
 <u>InstaMedia</u> was created by **[LEGENDARY STREAMER](https://github.com/Harshshah6)**.
 
-- API to save Instagram reel or post :- [SaveIG](https://saveig.app)
-- API parser :- [AndroSketchUI](https://androsketchui.vercel.app)
+- **Shizuku** :- [Shizuku]([https://saveig.app](https://github.com/RikkaApps/Shizuku))
 
 ## **Changelog**
 
-- **0.1.0:** Initial release (latest)
+- **1.0:** Initial release (latest)
 
 ## **Contact**
 
