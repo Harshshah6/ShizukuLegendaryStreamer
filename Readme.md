@@ -7,7 +7,7 @@ LegendaryStreamerShizuku is an utility class for android java / kotlin applicati
  ![](https://badgen.net/github/release/Harshshah6/ShizukuLegendaryStreamer)
  ![GitHub repo size](https://img.shields.io/github/repo-size/Harshshah6/ShizukuLegendaryStreamer?color=g&logo=github)
  
- [![](https://repository-images.githubusercontent.com/530299726/354e9b8e-b555-4609-b00c-1c871a2144ef)](https://repository-images.githubusercontent.com/530299726/354e9b8e-b555-4609-b00c-1c871a2144ef)
+ [![]([https://repository-images.githubusercontent.com/530299726/354e9b8e-b555-4609-b00c-1c871a2144ef)](https://repository-images.githubusercontent.com/530299726/354e9b8e-b555-4609-b00c-1c871a2144ef](https://github.com/Harshshah6/ShizukuLegendaryStreamer/blob/main/img.png?raw=true))
 
 ## Getting Started
 Instructions on how to get the module in your project.
