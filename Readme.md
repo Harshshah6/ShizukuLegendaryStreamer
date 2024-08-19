@@ -54,6 +54,8 @@ private final ExecutionProcessListener executionProcessListener = new ExecutionP
 }
 ```
 
+### Checkout the available methods [here](https://github.com/Harshshah6/ShizukuLegendaryStreamer/blob/main/LegendaryStreamerShizuku/src/main/java/legendary/streamer/shizuku/LegendaryStreamerShizuku.java)
+
 <!-- or 
 ### Windows
 
