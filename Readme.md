@@ -76,9 +76,9 @@ If you'd like to contribute to Project Title, here are some guidelines:
 This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details. -->
 
 ## Authors & Acknowledgments
-<u>InstaMedia</u> was created by **[LEGENDARY STREAMER](https://github.com/Harshshah6)**.
+<u>ShizukuLegendaryStreamer</u> was created by **[LEGENDARY STREAMER](https://github.com/Harshshah6)**.
 
-- **Shizuku** :- [Shizuku]([https://saveig.app](https://github.com/RikkaApps/Shizuku))
+- **Shizuku** :- [Shizuku](https://github.com/RikkaApps/Shizuku)
 
 ## **Changelog**
 
